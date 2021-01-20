@@ -1,0 +1,229 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0/win-x86",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {},
+    ".NETCoreApp,Version=v5.0/win-x86": {
+      "OriginCacheCleaner/1.0.0": {
+        "dependencies": {
+          "runtimepack.Microsoft.NETCore.App.Runtime.win-x86": "5.0.0"
+        },
+        "runtime": {
+          "OriginCacheCleaner.dll": {}
+        }
+      },
+      "runtimepack.Microsoft.NETCore.App.Runtime.win-x86/5.0.0": {
+        "runtime": {
+          "System.Collections.Concurrent.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          },
+          "System.Collections.Immutable.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          },
+          "System.Collections.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          },
+          "System.Console.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          },
+          "System.Diagnostics.StackTrace.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          },
+          "System.IO.Compression.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          },
+          "System.IO.FileSystem.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          },
+          "System.IO.MemoryMappedFiles.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          },
+          "System.Linq.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          },
+          "System.Reflection.Metadata.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          },
+          "System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          },
+          "System.Runtime.Serialization.Formatters.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          },
+          "System.Private.CoreLib.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        },
+        "native": {
+          "clrcompression.dll": {
+            "fileVersion": "42.42.42.42424"
+          },
+          "clrjit.dll": {
+            "fileVersion": "5.0.20.51904"
+          },
+          "coreclr.dll": {
+            "fileVersion": "5.0.20.51904"
+          },
+          "mscordaccore.dll": {
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OriginCacheCleaner/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "runtimepack.Microsoft.NETCore.App.Runtime.win-x86/5.0.0": {
+      "type": "runtimepack",
+      "serviceable": false,
+      "sha512": ""
+    }
+  },
+  "runtimes": {
+    "win-x86": [
+      "win",
+      "any",
+      "base"
+    ],
+    "win-x86-aot": [
+      "win-aot",
+      "win-x86",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win10-x86": [
+      "win10",
+      "win81-x86",
+      "win81",
+      "win8-x86",
+      "win8",
+      "win7-x86",
+      "win7",
+      "win-x86",
+      "win",
+      "any",
+      "base"
+    ],
+    "win10-x86-aot": [
+      "win10-aot",
+      "win10-x86",
+      "win10",
+      "win81-x86-aot",
+      "win81-aot",
+      "win81-x86",
+      "win81",
+      "win8-x86-aot",
+      "win8-aot",
+      "win8-x86",
+      "win8",
+      "win7-x86-aot",
+      "win7-aot",
+      "win7-x86",
+      "win7",
+      "win-x86-aot",
+      "win-aot",
+      "win-x86",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win7-x86": [
+      "win7",
+      "win-x86",
+      "win",
+      "any",
+      "base"
+    ],
+    "win7-x86-aot": [
+      "win7-aot",
+      "win7-x86",
+      "win7",
+      "win-x86-aot",
+      "win-aot",
+      "win-x86",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win8-x86": [
+      "win8",
+      "win7-x86",
+      "win7",
+      "win-x86",
+      "win",
+      "any",
+      "base"
+    ],
+    "win8-x86-aot": [
+      "win8-aot",
+      "win8-x86",
+      "win8",
+      "win7-x86-aot",
+      "win7-aot",
+      "win7-x86",
+      "win7",
+      "win-x86-aot",
+      "win-aot",
+      "win-x86",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ],
+    "win81-x86": [
+      "win81",
+      "win8-x86",
+      "win8",
+      "win7-x86",
+      "win7",
+      "win-x86",
+      "win",
+      "any",
+      "base"
+    ],
+    "win81-x86-aot": [
+      "win81-aot",
+      "win81-x86",
+      "win81",
+      "win8-x86-aot",
+      "win8-aot",
+      "win8-x86",
+      "win8",
+      "win7-x86-aot",
+      "win7-aot",
+      "win7-x86",
+      "win7",
+      "win-x86-aot",
+      "win-aot",
+      "win-x86",
+      "win",
+      "aot",
+      "any",
+      "base"
+    ]
+  }
+}

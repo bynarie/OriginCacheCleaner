@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Diagnostics;
 using System.IO;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace OriginCacheCleaner
@@ -27,6 +29,17 @@ namespace OriginCacheCleaner
             {
 
                 "\nRunning Tasks...".WriteLn();
+
+                try
+                {
+                    Task p1 = Task.Run(() => EndProcess());
+                    p1.Wait();
+
+                }
+                catch(Exception e)
+                {
+                    e.Message.WriteLn();
+                }
 
                 try
                 {
@@ -78,6 +91,13 @@ namespace OriginCacheCleaner
 
         }
 
+        public static void EndProcess()
+        {
+            foreach (var process in Process.GetProcessesByName("Origin"))
+            {
+                process.Kill();
+            }
+        }
         public static void DeleteCache(string dir1)
         {
             string[] files = Directory.GetFiles(dir1);

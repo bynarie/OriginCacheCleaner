@@ -220,7 +220,6 @@ D:\dotnet\OriginCacheCleaner\bin\Release\net5.0\win-x64\dbgshim.dll
 D:\dotnet\OriginCacheCleaner\bin\Release\net5.0\win-x64\hostfxr.dll
 D:\dotnet\OriginCacheCleaner\bin\Release\net5.0\win-x64\hostpolicy.dll
 D:\dotnet\OriginCacheCleaner\bin\Release\net5.0\win-x64\mscordaccore.dll
-D:\dotnet\OriginCacheCleaner\bin\Release\net5.0\win-x64\mscordaccore_amd64_amd64_5.0.20.51904.dll
 D:\dotnet\OriginCacheCleaner\bin\Release\net5.0\win-x64\mscordbi.dll
 D:\dotnet\OriginCacheCleaner\bin\Release\net5.0\win-x64\mscorrc.dll
 D:\dotnet\OriginCacheCleaner\bin\Release\net5.0\win-x64\ucrtbase.dll
@@ -233,3 +232,4 @@ D:\dotnet\OriginCacheCleaner\obj\Release\net5.0\win-x64\OriginCacheCleaner.dll
 D:\dotnet\OriginCacheCleaner\obj\Release\net5.0\win-x64\ref\OriginCacheCleaner.dll
 D:\dotnet\OriginCacheCleaner\obj\Release\net5.0\win-x64\OriginCacheCleaner.pdb
 D:\dotnet\OriginCacheCleaner\obj\Release\net5.0\win-x64\OriginCacheCleaner.genruntimeconfig.cache
+D:\dotnet\OriginCacheCleaner\bin\Release\net5.0\win-x64\mscordaccore_amd64_amd64_5.0.220.61120.dll

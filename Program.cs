@@ -32,6 +32,7 @@ namespace OriginCacheCleaner
 
             // Store pressed key into 'ck1' variable
             ConsoleKeyInfo ck1 = Console.ReadKey();
+       
 
             // Check if the 'Y' key is pressed
             if (ck1.Key == ConsoleKey.Y)

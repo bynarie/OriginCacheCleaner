@@ -11,6 +11,7 @@ namespace OriginCacheCleaner
     {
         static void Main(String[] args)
         {
+            /** I gotta poop **/
             Console.Title = "Origin cache cleaner";
             String username = Environment.UserName; // Need username for the correct directory
 

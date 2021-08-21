@@ -1,0 +1,6 @@
+D:\dotnet\OriginCacheCleaner\bin\Release\net5.0\publish\OriginCacheCleaner.pdb
+D:\dotnet\OriginCacheCleaner\bin\Release\net5.0\publish\clrcompression.dll
+D:\dotnet\OriginCacheCleaner\bin\Release\net5.0\publish\clrjit.dll
+D:\dotnet\OriginCacheCleaner\bin\Release\net5.0\publish\coreclr.dll
+D:\dotnet\OriginCacheCleaner\bin\Release\net5.0\publish\mscordaccore.dll
+D:\dotnet\OriginCacheCleaner\bin\Release\net5.0\publish\OriginCacheCleaner.exe

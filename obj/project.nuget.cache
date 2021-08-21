@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "nt33cizh6Ue8ufvGtUGgYJrn2xfy5733ksr/rmvP25GTMPthxgSj9nIXBmVw/0cxZncxTONRuVfk7OZX2k/MOg==",
+  "success": true,
+  "projectFilePath": "D:\\dotnet\\OriginCacheCleaner\\OriginCacheCleaner.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hjone\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.8\\microsoft.netcore.app.host.win-x64.5.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

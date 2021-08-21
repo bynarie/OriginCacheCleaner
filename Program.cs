@@ -1,29 +1,39 @@
 ﻿using System;
 using System.Diagnostics;
 using System.IO;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace OriginCacheCleaner
 {
+
     static class Program
     {
-        static void Main(string[] args)
+        static void Main(String[] args)
         {
-            String username = Environment.UserName;
-      
-            
+            Console.Title = "Origin cache cleaner";
+            String username = Environment.UserName; // Need username for the correct directory
+
+            //BEGIN origin directory variables
             String originDir = @"C:\ProgramData\Origin";
             String appdataRoaming = @"C:\Users\" + username + @"\AppData\Roaming\Origin";
             String appdataLocal = @"C:\Users\" + username + @"\AppData\Local\Origin";
+            // END Origin directoriy variables
+
+
+            // Output the directories to be modified
             Console.WriteLine("The following directories will be modified:");
             Console.WriteLine(originDir);
             Console.WriteLine(appdataRoaming);
             Console.WriteLine(appdataLocal);
 
+            // Double checking to make sure user wants to modify
             Console.WriteLine("\nIs this ok? (Y/n)");
 
+            // Store pressed key into 'ck1' variable
             ConsoleKeyInfo ck1 = Console.ReadKey();
 
+            // Check if the 'Y' key is pressed
             if (ck1.Key == ConsoleKey.Y)
             {
 
@@ -35,7 +45,7 @@ namespace OriginCacheCleaner
                     p1.Wait();
 
                 }
-                catch(Exception e)
+                catch (Exception e)
                 {
                     e.Message.WriteLn();
                 }
@@ -58,10 +68,10 @@ namespace OriginCacheCleaner
                     }
                     else
                     {
-                        if(t1.IsFaulted) t1.Status.ToString().WriteLn();
-                        if(t2.IsFaulted) t2.Status.ToString().WriteLn();
-                        if(t2.IsFaulted) t3.Status.ToString().WriteLn();
-                        
+                        if (t1.IsFaulted) t1.Status.ToString().WriteLn();
+                        if (t2.IsFaulted) t2.Status.ToString().WriteLn();
+                        if (t2.IsFaulted) t3.Status.ToString().WriteLn();
+
 
                     }
                 }
@@ -76,9 +86,8 @@ namespace OriginCacheCleaner
             else
 
             {
-
-                "\nPress any key to exit".WriteLn();
-                Console.ReadKey();
+                "Exiting process...\n".WriteLn();
+                Environment.Exit(0);
 
             }
 
@@ -90,12 +99,19 @@ namespace OriginCacheCleaner
 
         }
 
+        // Method to kill all Origin processes, so content can be deleted
         public static void EndProcess()
         {
             foreach (var process in Process.GetProcessesByName("Origin"))
             {
                 process.Kill();
             }
+            foreach (var process in Process.GetProcessesByName("OriginWebHelperService"))
+            {
+                process.Kill();
+            }
+
+            Process.GetProcesses().Where(x => x.ProcessName.ToLower().Contains("origin")).ToList().ForEach(x => x.Kill());
         }
         public static void DeleteCache(string dir1)
         {

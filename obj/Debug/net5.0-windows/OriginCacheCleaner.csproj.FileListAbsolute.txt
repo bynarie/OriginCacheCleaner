@@ -1,0 +1,16 @@
+D:\dotnet\OriginCacheCleaner\obj\Debug\net5.0-windows\OriginCacheCleaner.csproj.AssemblyReference.cache
+D:\dotnet\OriginCacheCleaner\obj\Debug\net5.0-windows\OriginCacheCleaner.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet\OriginCacheCleaner\obj\Debug\net5.0-windows\OriginCacheCleaner.AssemblyInfoInputs.cache
+D:\dotnet\OriginCacheCleaner\obj\Debug\net5.0-windows\OriginCacheCleaner.AssemblyInfo.cs
+D:\dotnet\OriginCacheCleaner\obj\Debug\net5.0-windows\OriginCacheCleaner.csproj.CoreCompileInputs.cache
+D:\dotnet\OriginCacheCleaner\bin\Debug\net5.0-windows\OriginCacheCleaner.exe
+D:\dotnet\OriginCacheCleaner\bin\Debug\net5.0-windows\OriginCacheCleaner.deps.json
+D:\dotnet\OriginCacheCleaner\bin\Debug\net5.0-windows\OriginCacheCleaner.runtimeconfig.json
+D:\dotnet\OriginCacheCleaner\bin\Debug\net5.0-windows\OriginCacheCleaner.runtimeconfig.dev.json
+D:\dotnet\OriginCacheCleaner\bin\Debug\net5.0-windows\OriginCacheCleaner.dll
+D:\dotnet\OriginCacheCleaner\bin\Debug\net5.0-windows\ref\OriginCacheCleaner.dll
+D:\dotnet\OriginCacheCleaner\bin\Debug\net5.0-windows\OriginCacheCleaner.pdb
+D:\dotnet\OriginCacheCleaner\obj\Debug\net5.0-windows\OriginCacheCleaner.dll
+D:\dotnet\OriginCacheCleaner\obj\Debug\net5.0-windows\ref\OriginCacheCleaner.dll
+D:\dotnet\OriginCacheCleaner\obj\Debug\net5.0-windows\OriginCacheCleaner.pdb
+D:\dotnet\OriginCacheCleaner\obj\Debug\net5.0-windows\OriginCacheCleaner.genruntimeconfig.cache
